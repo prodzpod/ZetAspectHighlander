@@ -1,0 +1,12 @@
+{
+	"name": "ZetAspectHighlander",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/prodzpod/ZetAspectHighlander",
+	"description": "changes ZetAspect aspects to Highlander tier.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.2103",
+		"RiskofThunder-HookGenPatcher-1.2.3",
+		"TeamAugmentum-Augmentum-1.1.2",
+		"William758-ZetAspects-2.8.6"
+	]
+}
