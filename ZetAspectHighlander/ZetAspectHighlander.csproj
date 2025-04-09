@@ -18,8 +18,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Reference Include="BransItems">
-	    <HintPath>..\..\libs\BransItems-nstrip.dll</HintPath>
+	  <Reference Include="Augmentum">
+	    <HintPath>..\..\libs\Augmentum-nstrip.dll</HintPath>
 	  </Reference>
 	  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
 	    <HintPath>..\..\libs\com.unity.multiplayer-hlapi.Runtime-nstrip.dll</HintPath>

@@ -6,21 +6,21 @@ using System.Linq;
 using System.Collections.Generic;
 using TPDespair.ZetAspects;
 using HarmonyLib;
-using BransItems.Modules.ItemTiers.HighlanderTier;
-using BransItems.Modules.Utils;
+using Augmentum.Modules.ItemTiers.HighlanderTier;
+using Augmentum.Modules.Utils;
 using RoR2.ContentManagement;
 
 namespace ZetAspectHighlander
 {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [BepInDependency(ZetAspectsPlugin.ModGuid)]
-    [BepInDependency(BransItems.BransItems.ModGuid)]
+    [BepInDependency(Augmentum.Augmentum.ModGuid)]
     public class Main : BaseUnityPlugin
     {
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "prodzpod";
         public const string PluginName = "ZetAspectHighlander";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
         public static ManualLogSource Log;
         public static PluginInfo pluginInfo;
         public static ConfigFile Config;

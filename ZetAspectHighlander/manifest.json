@@ -1,6 +1,6 @@
 {
 	"name": "ZetAspectHighlander",
-	"version_number": "1.0.0",
+	"version_number": "1.0.1",
 	"website_url": "https://github.com/prodzpod/ZetAspectHighlander",
 	"description": "changes ZetAspect aspects to Highlander tier.",
 	"dependencies": [
